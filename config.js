@@ -14,17 +14,17 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/South Africa";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/johannesburg";
 global.github=process.env.GITHUB|| "https://github.com/Lindokuhle17/Lindo-Suhail-Md";
 global.gurl  =process.env.GURL  || "https://https://wa.me/message/MAD66BH7UVM6G1";
 global.website=process.env.GURL || "https://https://wa.me/message/MAD66BH7UVM6G1" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://drive.google.com/file/d/1OgpK4VNVilYd92u7LGizlkr4MAqa9jHE/view?usp=sharing" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://drive.google.com/file/d/1OgpK4VNVilYd92u7LGizlkr4MAqa9jHE/view" ; // SET LOGO FOR IMAGE 
 
 
 
 global.devs = "0657006860" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "0657006860";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "27657006860";
 
 
 
